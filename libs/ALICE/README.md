@@ -22,8 +22,10 @@ url="https://alice-publications.web.cern.ch/publications?....&items_per_page=100
 csv_filename="publications.csv"
 years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
+</pre>
 
 * Generate the CSV publications as follows:
+<pre>
 ]$ python3 parsing_ALICE.py 
 - Parsing publications in progress...[OK]
 </pre>
