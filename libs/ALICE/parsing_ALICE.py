@@ -47,9 +47,10 @@ def print_details(url, csv_filename, years):
                            item_href=li.a.get('href')
 
                     if item_year in years:
-                       print(item_title)
-                       print(item_year)
-                       print(item_journal)
+                       #print(item_title)
+                       #print(item_year)
+                       #print(item_journal)
+                       #print(item_doi)
 
                        writer.writerow({
                         'Author(s)': "ALICE Collaboration",
@@ -64,8 +65,8 @@ def print_details(url, csv_filename, years):
 
 def main():
     print("- Parsing publications in progress...", end="")
-    url="https://alice-publications.web.cern.ch/publications?title=&field_draft_pub_date_value%5Bmin%5D=2016-01-01&field_draft_pub_date_value%5Bmax%5D=2019-12-31&items_per_page=100&page=2"
-    csv_filename="publications_2.csv"
+    url="https://alice-publications.web.cern.ch/publications?title=&field_draft_pub_date_value%5Bmin%5D=&field_draft_pub_date_value%5Bmax%5D=&items_per_page=100"
+    csv_filename="publications.csv"
     years = [2016, 2017, 2018, 2019]
     print_details(url, csv_filename, years)
     if (os.stat(csv_filename).st_size > 34):
