@@ -11,4 +11,4 @@ This repository contains Python scripts for pulling data out of HTML and XML fil
 
 ## Available libs
 
-- [Parsing ALICE publications](libs/ALICE)
+- [ALICE publications](libs/ALICE)
