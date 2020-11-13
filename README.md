@@ -8,3 +8,5 @@ This repository contains Python scripts to automatise the extraction of scientif
 * Python v3.5.2+
 
 ## Examples
+
+- [Parsing ALICE publications](libs/ALICE)
