@@ -2,7 +2,7 @@
 
 With this script we will: 
 
-* Use the [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library `(v4.9.2)` for parsing the HTML ALICE experiment [website](https://alice-publications.web.cern.ch/publications) 
+* Use the [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library for parsing the ALICE experiment [website](https://alice-publications.web.cern.ch/publications) 
 * Produce a list of publications during the period of interest.
 
 ## Requirements
@@ -12,3 +12,17 @@ With this script we will:
 * [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
 
 ## Usage
+* Navigate the [Physics Publications of the ALICE Collaboration in Refereed Journals](https://alice-publications.web.cern.ch/publications)
+* Select `Items per page` = 100 and the page of interest
+* Save the `url` in the Python script
+* Chose the period of interest
+* Generate the CSV publications as follows:
+
+<pre>
+]$ python3 parsing_ALICE.py 
+- Parsing publications in progress...[OK]
+</pre>
+
+If necessary repeat the procedure moving between pages and contact the CSV files with the publications. 
+
+
