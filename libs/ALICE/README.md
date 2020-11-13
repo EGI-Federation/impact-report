@@ -24,12 +24,14 @@ years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
 </pre>
 
-* Generate the CSV publications as follows:
+* Export the ALICE publications as follows:
 <pre>
 ]$ python3 parsing_ALICE.py 
 - Parsing publications in progress...[OK]
 </pre>
 
+### Note:
+Publications are saved in the `publications.csv` file.
 If necessary repeat the procedure moving between pages and contact the CSV files with the publications. 
 
 
