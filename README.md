@@ -1,6 +1,6 @@
 # impact-report
 
-This repository contains Python scripts to automatise the extraction of scientific publications from the main project's experiments
+This repository contains Python scripts for pulling data out of HTML and XML files and produce, in a CSV format, a list of scientific publications from the main project's experiments.
 
 ## Requirements
 
