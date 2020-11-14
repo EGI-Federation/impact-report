@@ -13,8 +13,7 @@ With this script we will:
 * [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
 
 ## Usage
-* Navigate the [CMS repository](http://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html)
-* Select `Items per page` = 100 and the page of interest
+* Go to the [CMS repository](http://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html)
 * Configure the settings (e.g.: `url`, and `years` range)
 
 <pre>
