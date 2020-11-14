@@ -58,7 +58,7 @@ def main():
     print("- Parsing publications in progress...", end="")
     url="http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html"
     csv_filename="publications.csv"
-    years = [2016, 2016, 2017, 2018, 2019]
+    years = [2016, 2017, 2018, 2019]
     print_details(url, csv_filename, years)
     if (os.stat(csv_filename).st_size > 34):
        print("[OK]")

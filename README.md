@@ -53,6 +53,7 @@ The list of scientific publications is collected from the following repositories
 - [EATRIS publications](libs/EATRIS)
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](libs/HESS)
+- [LHCb publications](libs/LHCb)
 
 ## Note (§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
