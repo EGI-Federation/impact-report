@@ -19,7 +19,7 @@ With this script we will:
 ]$ wget https://www.cta-observatory.org/science/library/
 </pre>
 
-* Parse the HTML page and extract the list of publication in JSON format
+* Parse the HTML page and extract the CTA publications in JSON format
 <pre>
 ]$ cat index.html \
        | grep -i window._libraryData \
@@ -39,14 +39,10 @@ parsing_publications(filename, csv_filename, years)
 [..]
 </pre>
 
-* Parse and export the CTA publications as follows:
+* Parse the JSON file and export the CTA publications as follows:
 <pre>
 ]$ python3 parsing_CTA.py 
 - Parsing publications in progress...[OK]
 </pre>
-
-### Note:
-* Publications are saved in the `publications.csv` file.
-* If necessary repeat the procedure moving between pages and concat the different CSV files.
 
 
