@@ -19,20 +19,20 @@ The list of scientific publications is collected from the following repositories
 | :---          | :---       |
 | ALICE         | [link](http://alice-publications.web.cern.ch/publications) |
 | ATLAS         | [link](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications)  |
-| BELLE II (Ã§)  | [link](https://inspirehep.net/) |
+| BELLE II (§)  | [link](https://inspirehep.net/) |
 | BIOMED        | Direct reporting via interview |
 | CLARIN        | [link](https://beta.clarin.openaire.eu/) |
 | CTA           | [link](https://www.cta-observatory.org/science/library/) |
 | CMS           | [link](http://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html) |
 | DARIAH        | [link](https://halshs.archives-ouvertes.fr/DARIAH), [link](https://beta.dariah.openaire.eu/) |
-| DUNE (Ã§)      | [link](https://inspirehep.net/) |
+| DUNE (§)      | [link](https://inspirehep.net/) |
 | EATRIS        | [link](https://eatris.eu/publications-citing-eatris/) |
 | EISCAT        | [link](https://www.eiscat.se/scientist/publications/) |
 | ELI-NP        | [link](https://www.eli-np.ro/scientific_papers.php) |
 | H.E.S.S.      | [link](https://www.mpi-hd.mpg.de/hfm/HESS/pages/publications/pubs_jour.shtml) |
 | IceCube       | [link](https://icecube.wisc.edu/pubs) |
-| JUNO (Ã§)      | [link](https://inspirehep.net/) |
-| KM3NET (Ã§)    | [link](https://inspirehep.net/) |
+| JUNO (§)      | [link](https://inspirehep.net/) |
+| KM3NET (§)    | [link](https://inspirehep.net/) |
 | LifeWatch     | Direct reporting via interview and OpenAIRE |
 | LOFAR         | [link](https://old.astron.nl/radio-observatory/lofar-science/lofar-papers/lofar-papers) |
 | LHCb          | [link](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html) |
@@ -43,7 +43,7 @@ The list of scientific publications is collected from the following repositories
 | SKA           | [link](https://explore.openaire.eu/) |
 | VIRGO         | [link](https://pnp.ligo.org/ppcomm/Papers.html) |
 | WeNMR         | Direct reporting via interview and OpenAIRE |
-| XENON (Ã§)     | [link](https://inspirehep.net/) |
+| XENON (§)     | [link](https://inspirehep.net/) |
 
 
 ## Available libs
@@ -54,7 +54,7 @@ The list of scientific publications is collected from the following repositories
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](lib/HESS)
 
-## Note (Ã§)
+## Note (§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
 * Export from the portal the list of publications in `bibtex` format  
 * Generate the CVS file using the repo...
