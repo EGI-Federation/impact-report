@@ -52,3 +52,4 @@ The list of scientific publications is collected from the following repositories
 - [ALICE publications](libs/ALICE)
 - [CMS publications](libs/CMS)
 - [CTA publications](libs/CTA)
+- [EATRIS publications](libs/EATRIS)

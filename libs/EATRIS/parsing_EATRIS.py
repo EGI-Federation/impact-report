@@ -39,6 +39,7 @@ def print_details(url, csv_filename, years):
             if "DOI" in tmp:
                item_doi=tmp[4:].strip()
     
+            print(item_year)
             if item_year in years:
                writer.writerow({
                   'Author(s)': item_authors,
@@ -56,7 +57,7 @@ def main():
     print("- Parsing publications in progress...", end="")
     url="https://eatris.eu/publications-citing-eatris/"
     csv_filename="publications.csv"
-    years = ["2016", "2017", "2018", "2019"]
+    years = [2016, 2017, 2018, 2019]
     print_details(url, csv_filename, years)
     if (os.stat(csv_filename).st_size > 34):
        print("[OK]")
