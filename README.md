@@ -15,11 +15,10 @@ To facilitate the assessment of the scientific impact of the user communities, a
 
 The list of scientific publications is collected from the following repositories:
 
-| Scientific Domain                            | Collaboration | Repository                                                 |
-| -------------------------------------------- | ------------- | ---------------------------------------------------------- |
-| Natural Sciences >                           | ALICE         | [link](http://alice-publications.web.cern.ch/publications) |
-|  Physical Sciences >                         |               |                                                            |
-|  High Energy Physics and Particle Physics >  |               |                                                            |
+| Collaboration | Repository                                                 |
+| ------------- | ---------------------------------------------------------- |
+| ALICE         | [link](http://alice-publications.web.cern.ch/publications) |
+| ATLAS         | [link](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications)  |
 
 
 ## Available libs
