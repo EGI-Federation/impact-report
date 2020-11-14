@@ -21,7 +21,10 @@ With this script we will:
 
 * Parse the HTML page and extract the list of publication in JSON format
 <pre>
-cat index.html | grep -i window._libraryData | awk -F 'window._libraryData = ' '{print $2}' | awk -F '</script>' '{print $1}'> publications.json 
+]$ cat index.html \
+       | grep -i window._libraryData \
+       | awk -F 'window._libraryData = ' '{print $2}' \
+       | awk -F '</script>' '{print $1}'> publications.json 
 </pre>
 
 * Configure the settings (e.g.: `filename`, and `years` range)
