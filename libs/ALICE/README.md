@@ -15,8 +15,8 @@ With this script we will:
 ## Usage
 * Navigate the [Physics Publications of the ALICE Collaboration in Refereed Journals](https://alice-publications.web.cern.ch/publications)
 * Select `Items per page` = 100 and the page of interest
-* Save the `url` in the Python script
-* Configure the settings (e.g.: url, and year range)
+* Configure the settings (e.g.: `url`, and `years` range)
+
 <pre>
 [..]
 url="https://alice-publications.web.cern.ch/publications?....&items_per_page=100"
@@ -25,7 +25,7 @@ years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
 </pre>
 
-* Export the ALICE publications as follows:
+* Parse and export the ALICE publications as follows:
 <pre>
 ]$ python3 parsing_ALICE.py 
 - Parsing publications in progress...[OK]
