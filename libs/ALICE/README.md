@@ -21,8 +21,10 @@ With this script we will:
 [..]
 url="https://alice-publications.web.cern.ch/publications?....&items_per_page=100"
 csv_filename="publications.csv"
+
 years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
+[..]
 </pre>
 
 * Parse and export the ALICE publications as follows:
