@@ -17,7 +17,7 @@ The list of scientific publications is collected from the following repositories
 
 | Collaboration | Repository |
 | :---          | :---       |
-| <a href="https://www.w3schools.com"><img border="0" alt="W3Schools" src="https://alice-publications.web.cern.ch/sites/alice-publications.web.cern.ch/files/logo/ALICE_Color_Logo_DB_small_0.png" width="100" height="100">         | [link](http://alice-publications.web.cern.ch/publications) |
+| <a href="https://www.w3schools.com"><img border="0" src="https://alice-publications.web.cern.ch/sites/alice-publications.web.cern.ch/files/logo/ALICE_Color_Logo_DB_small_0.png" width="50" height="50">         | [link](http://alice-publications.web.cern.ch/publications) |
 | ATLAS         | [link](https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications)  |
 | BELLE II (§)  | [link](https://inspirehep.net/) |
 | BIOMED        | Direct reporting via interview |
