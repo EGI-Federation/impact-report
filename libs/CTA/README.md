@@ -1,4 +1,4 @@
-# Parsing scientific publications of the CTA experiment
+# Parsing the scientific publications of the CTA experiment
 
 With this script we will: 
 
