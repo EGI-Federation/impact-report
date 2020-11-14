@@ -52,9 +52,16 @@ The list of scientific publications is collected from the following repositories
 - [CTA publications](libs/CTA)
 - [EATRIS publications](libs/EATRIS)
 - [ELI-NP publications](libs/ELI-NP)
+- [H.E.S.S. publications](lib/HESS)
 
+<<<<<<< HEAD
 ## Note (ร)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will use:
 * Export from the portal the list of publications in bibtex format  
+=======
+## Note (รง)
+To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
+* Export from the portal the list of publications in `bibtex` format  
+>>>>>>> 0089da5af7c24eb76685a059fb0af864326d3d9a
 * Generate the CVS file using the repo...
 
