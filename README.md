@@ -52,7 +52,7 @@ The list of scientific publications is collected from the following repositories
 - [CTA publications](libs/CTA)
 - [EATRIS publications](libs/EATRIS)
 - [ELI-NP publications](libs/ELI-NP)
-- [HESS publications](lib/HESS)
+- [HESS publications](libs/HESS)
 
 ## Note (§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
