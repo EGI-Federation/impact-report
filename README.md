@@ -50,3 +50,4 @@ The list of scientific publications is collected from the following repositories
 ## Available libs
 
 - [ALICE publications](libs/ALICE)
+- [CTA publications](libs/CTA)
