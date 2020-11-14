@@ -51,11 +51,11 @@ def print_details(url, csv_filename, years):
              author_list = []
 
              if int(item_year) in years:
-                   print("\nTitle = %s "%item_title)
-                   print("Authors = %s "%item_author)
-                   print("Year = %s "%item_year)
-                   print("DOI = %s "%item_doi)
-                   print("Journal = %s" %item_journal)
+                   #print("\nTitle = %s "%item_title)
+                   #print("Authors = %s "%item_author)
+                   #print("Year = %s "%item_year)
+                   #print("DOI = %s "%item_doi)
+                   #print("Journal = %s" %item_journal)
 
                    writer.writerow({
                     'Author(s)': item_author,
