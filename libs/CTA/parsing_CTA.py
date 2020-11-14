@@ -20,7 +20,7 @@ def parsing_publications(filename, csv_filename, years):
 
          index = 0
          while (index < len(data)):
-               if data[index]['year'] in years:
+               if int(data[index]['year']) in years:
                    writer.writerow({
                        'Author(s)': data[index]['full_list_of_authors'], 
                        'Year': data[index]['year'], 
@@ -36,7 +36,7 @@ def main():
     print("- Parsing the CTA publications in progress...", end = "")
     filename="publications.json"
     csv_filename="publications.csv"
-    years = ["2016", "2017", "2018", "2019"]
+    years = [2016, 2017, 2018, 2019]
     parsing_publications(filename, csv_filename, years)
     if (os.stat(csv_filename).st_size > 34):
        print("[OK]")
