@@ -1,4 +1,4 @@
-# Parsing scientific publications of the ALICE experiment
+# Parsing the scientific publications of the ALICE experiment
 
 With this script we will: 
 
