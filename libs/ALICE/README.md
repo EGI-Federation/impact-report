@@ -2,8 +2,9 @@
 
 With this script we will: 
 
-* Use the [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library for parsing the ALICE experiment [website](https://alice-publications.web.cern.ch/publications) 
+* Use the [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library to parse the ALICE [repository](https://alice-publications.web.cern.ch/publications) 
 * Produce a list of publications during the period of interest.
+* Export the list of publications in a CSV file.
 
 ## Requirements
 * Basic knowledge of Linux user environment and Python as programming language
