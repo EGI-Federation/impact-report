@@ -2,7 +2,7 @@
 
 This repository is dedicated to the tracking of user communities supported by the EGI Federation, their scientific impact, and user community engagement. Overall, this activity aims at identifying the value proposition of the EGI Federation and maximizing its impact through the identification of new user communities.
 
-To facilitate the assessment of the scientific impact of the user communities, a set of Python scripts for pulling data out of HTML and XML files and produce, in a CSV format, a list of scientific publications from the main project's experiments have been developed.
+To facilitate the assessment of the scientific impact, a set of Python scripts for pulling data out of HTML and XML files and produce, in a CSV format, a list of scientific publications from the main project's experiments have been developed.
 
 ## Requirements
 
