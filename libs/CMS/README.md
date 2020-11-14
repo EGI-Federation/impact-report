@@ -1,4 +1,4 @@
-# Parsing scientific publications of the CMS experiment
+# Parsing the scientific publications of the CMS experiment
 
 With this script we will: 
 
