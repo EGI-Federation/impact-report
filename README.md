@@ -54,6 +54,8 @@ The list of scientific publications is collected from the following repositories
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](libs/HESS)
 - [LHCb publications](libs/LHCb)
+- [SeaDataNet publications](libs/SeaDataNet)
+- [VIRGO publications](libs/VIRGO)
 
 ## Note (§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:

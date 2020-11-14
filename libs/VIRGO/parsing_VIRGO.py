@@ -55,11 +55,10 @@ def print_details(url, csv_filename, years):
                 year_list = []
                     
              if item_year in years:
-                print("\n")
-                print(item_title)
-                print(item_year)
-                print(item_journal)
-                print(item_doi)
+                #print(item_title)
+                #print(item_year)
+                #print(item_journal)
+                #print(item_doi)
 
                 writer.writerow({
                    'Author(s)': "VIRGO Collaboration",
