@@ -54,7 +54,7 @@ The list of scientific publications is collected from the following repositories
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](lib/HESS)
 
-## Note
+## Note (Ã§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
 * Export from the portal the list of publications in `bibtex` format  
 * Generate the CVS file using the repo...
