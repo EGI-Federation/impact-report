@@ -53,6 +53,7 @@ The list of scientific publications is collected from the following repositories
 - [EATRIS publications](libs/EATRIS)
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](libs/HESS)
+- [IceCube publications](libs/IceCube)
 - [LHCb publications](libs/LHCb)
 - [SeaDataNet publications](libs/SeaDataNet)
 - [VIRGO publications](libs/VIRGO)
