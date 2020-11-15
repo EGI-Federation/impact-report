@@ -60,6 +60,6 @@ The list of scientific publications is collected from the following repositories
 
 ## Note (§)
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
-* Export from the portal the list of publications in `bibtex` format  
+* Export the publications in `bibtex` format  
 * Generate the CVS file using the following GitHub [repo](https://github.com/EGI-Foundation/bib2csv)
 
