@@ -6,10 +6,10 @@ To facilitate the assessment of the scientific impact, a set of Python scripts f
 
 ## Requirements
 
-* Basic knowledge of Linux user environment and Python as programming language
+* Basic knowledge of Linux user environment and Python programming language
 * Basic knowledge of the `json`, `xmltodict`, `urlparse`, `urlopen`, `re`, `httplib`, `Beautiful Soap` python libraries are requested
 * Python v3.5.2+
-* [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
+* [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) v4.9.2
 
 ## Scientific paper repositories
 
@@ -45,8 +45,8 @@ The list of scientific publications is collected from the following repositories
 | WeNMR         | Direct reporting via interview and OpenAIRE |
 | XENON (§)     | [link](https://inspirehep.net/) |
 
-
 ## Available libs
+
 - [ALICE publications](libs/ALICE)
 - [ATLAS publications](libs/ATLAS)
 - [CMS publications](libs/CMS)
@@ -59,8 +59,8 @@ The list of scientific publications is collected from the following repositories
 - [SeaDataNet publications](libs/SeaDataNet)
 - [VIRGO publications](libs/VIRGO)
 
-## Note (§)
+## Notes
+
 To parse the publications from the [Inspire HEP portal](https://inspirehep-net) we will:
 * Export the publications in `bibtex` format  
 * Generate the CVS file using the following GitHub [repo](https://github.com/EGI-Foundation/bib2csv)
-
