@@ -44,7 +44,7 @@ repositories:
 | JUNO (§)      | [link](https://inspirehep.net/)                                                                    |
 | KM3NET (§)    | [link](https://inspirehep.net/)                                                                    |
 | LifeWatch     | Direct reporting via interview and OpenAIRE                                                        |
-| LOFAR         | [link](https://old.astron.nl/radio-observatory/lofar-science/lofar-papers/lofar-papers)            |
+| LOFAR         | [link](https://lofar-surveys.org/publications.html)                                                |
 | LHCb          | [link](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html) |
 | LSST          | [link](https://ui.adsabs.harvard.edu/)                                                             |
 | NBIS          | Direct reporting via interview and OpenAIRE                                                        |
