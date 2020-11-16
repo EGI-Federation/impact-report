@@ -7,7 +7,7 @@ With this script we will:
 
 ## Requirements
 * Basic knowledge of Linux user environment and Python as programming language
-* Basic knowledge of the `json`, `csv` python libraries are requested
+* Basic knowledge of the `json`, `csv` and `os` python libraries are requested
 * Python v3.5.2+
 
 ## Usage
