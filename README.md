@@ -48,6 +48,7 @@ The list of scientific publications is collected from the following repositories
 
 ## Available libs
 - [ALICE publications](libs/ALICE)
+- [ATLAS publications](libs/ATLAS)
 - [CMS publications](libs/CMS)
 - [CTA publications](libs/CTA)
 - [EATRIS publications](libs/EATRIS)
