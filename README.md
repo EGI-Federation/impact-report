@@ -71,7 +71,7 @@ repositories:
 
 ## Notes
 
-To parse the publications from the [Inspire HEP portal](https://inspirehep-net)
+To parse the publications from the [Inspire HEP portal](https://inspirehep.net)
 we will:
 
 - Export the publications in `bibtex` format
