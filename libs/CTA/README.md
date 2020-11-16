@@ -2,15 +2,13 @@
 
 With this script we will: 
 
-* Use the [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library to parse the CTA [repository](https://www.cta-observatory.org/science/library/) 
 * Produce a list of publications during the period of interest
 * Export the list of publications in a CSV file
 
 ## Requirements
 * Basic knowledge of Linux user environment and Python as programming language
-* Basic knowledge of the `json`, `xmltodict`, `urlparse`, `urlopen`, `re`, `httplib` `Beautiful Soap` python libraries are requested
+* Basic knowledge of the `json`, `csv` python libraries are requested
 * Python v3.5.2+
-* [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
 
 ## Usage
 * Navigate the [CTA library](https://www.cta-observatory.org/science/library/)
@@ -45,4 +43,4 @@ parsing_publications(filename, csv_filename, years)
 - Parsing publications in progress...[OK]
 </pre>
 
-
+* Publications are saved in the `publications.csv` file.
