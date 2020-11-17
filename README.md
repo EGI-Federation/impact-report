@@ -13,11 +13,11 @@ developed.
 
 ## Requirements
 
-- Basic knowledge of Linux user environment and Python programming language
-- Basic knowledge of the `json`, `xmltodict`, `urlparse`, `urlopen`, `re`,
+* Basic knowledge of Linux user environment and Python programming language
+* Basic knowledge of the `json`, `xmltodict`, `urlparse`, `urlopen`, `re`,
   `httplib`, `Beautiful Soap` python libraries are requested
-- Python v3.5.2+
-- [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* Python v3.5.2+
+* [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
   v4.9.2
 
 ## Scientific paper repositories
@@ -57,23 +57,24 @@ repositories:
 
 ## Available libs
 
-- [ALICE publications](libs/ALICE)
-- [ATLAS publications](libs/ATLAS)
-- [CMS publications](libs/CMS)
-- [CTA publications](libs/CTA)
-- [EATRIS publications](libs/EATRIS)
-- [ELI-NP publications](libs/ELI-NP)
-- [HESS publications](libs/HESS)
-- [IceCube publications](libs/IceCube)
-- [LHCb publications](libs/LHCb)
-- [SeaDataNet publications](libs/SeaDataNet)
-- [VIRGO publications](libs/VIRGO)
+* [ALICE publications](libs/ALICE)
+* [ATLAS publications](libs/ATLAS)
+* [CMS publications](libs/CMS)
+* [CTA publications](libs/CTA)
+* [EATRIS publications](libs/EATRIS)
+* [ELI-NP publications](libs/ELI-NP)
+* [HESS publications](libs/HESS)
+* [IceCube publications](libs/IceCube)
+* [LOFAR publications](libs/LOFAR)
+* [LHCb publications](libs/LHCb)
+* [SeaDataNet publications](libs/SeaDataNet)
+* [VIRGO publications](libs/VIRGO)
 
 ## Notes
 
 To parse the publications from the [Inspire HEP portal](https://inspirehep.net)
 we will:
 
-- Export the publications in `bibtex` format
-- Generate the CVS file using the following GitHub
+* Export the publications in `bibtex` format
+* Generate the CVS file using the following GitHub
   [repo](https://github.com/EGI-Foundation/bib2csv)
