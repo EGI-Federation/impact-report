@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
-import io, requests, csv, os
-from dateutil.parser import parse
+import requests
+import csv
+import os
+
+# from dateutil.parser import parse
 from bs4 import BeautifulSoup
 
 
@@ -11,7 +14,7 @@ def print_details(url, csv_filename, years):
        export the list in a CSV file
     """
 
-    item_authors = item_year = item_href = item_journal = item_doi = item_title = ""
+    item_year = item_journal = item_doi = item_title = ""
 
     with open(csv_filename, "w", newline="") as csvfile:
         # Header of the CSV file

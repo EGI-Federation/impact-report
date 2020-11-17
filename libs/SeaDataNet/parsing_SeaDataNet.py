@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
-import io, re, requests, csv, os
+import re
+import requests
+import csv
+import os
 from bs4 import BeautifulSoup
 
 
