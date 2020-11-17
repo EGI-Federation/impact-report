@@ -16,7 +16,7 @@ With this script we will:
 * Navigate the [CTA library](https://www.cta-observatory.org/science/library/)
 * Download the HTML web site
 
-  <pre>
+```sh
 ]$ wget https://www.cta-observatory.org/science/library/
 </pre>
 
