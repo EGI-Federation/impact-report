@@ -65,6 +65,7 @@ repositories:
 - [ELI-NP publications](libs/ELI-NP)
 - [HESS publications](libs/HESS)
 - [IceCube publications](libs/IceCube)
+- [LOFAR publications](libs/LOFAR)
 - [LHCb publications](libs/LHCb)
 - [SeaDataNet publications](libs/SeaDataNet)
 - [VIRGO publications](libs/VIRGO)
