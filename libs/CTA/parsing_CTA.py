@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-import json, csv, os
+import json
+import csv
+import os
 
 
 def parsing_publications(filename, csv_filename, years):
