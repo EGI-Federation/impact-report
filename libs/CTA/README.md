@@ -18,17 +18,16 @@ With this script we will:
 
 ```sh
 ]$ wget https://www.cta-observatory.org/science/library/
-```sh
+```
 
 * Parse the HTML page and extract the CTA publications in JSON format
 
-  ```sh
+```sh
 ]$ cat index.html \
        | grep -i window._libraryData \
        | awk -F 'window._libraryData = ' '{print $2}' \
        | awk -F '</script>' '{print $1}'> publications.json
-
-  ```sh
+```
 
 * Configure the settings (e.g.: `filename`, and `years` range)
 
@@ -40,13 +39,13 @@ csv_filename="publications.csv"
 years = [2016, 2017, 2018, 2019]
 parsing_publications(filename, csv_filename, years)
 [..]
-```sh
+```
 
 * Parse the JSON file and export the CTA publications as follows:
-  ```sh
+```sh
 ]$ python3 parsing_CTA.py
 
 - Parsing publications in progress...[OK]
-  ```sh
+```
 
 * Publications are saved in the `publications.csv` file.
