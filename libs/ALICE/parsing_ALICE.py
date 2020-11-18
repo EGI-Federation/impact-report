@@ -2,6 +2,7 @@
 
 import csv
 import os
+
 import requests
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
