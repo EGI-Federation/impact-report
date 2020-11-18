@@ -24,4 +24,3 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           # Fail on errors
           DISABLE_ERRORS: false
-          PYTHON_FLAKE8_CONFIG_FILE: .flake8
