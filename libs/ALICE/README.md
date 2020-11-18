@@ -33,11 +33,10 @@ print_details(url, csv_filename, years)
 
 ```sh
 ]$ python3 parsing_ALICE.py
-
-- Parsing publications in progress...[OK]
+   - Parsing publications in progress...[OK]
 ```
 
-### Note:
+### Note
 
 * Publications are saved in the `publications.csv` file.
 * If necessary repeat the procedure moving between pages and concat the different CSV files.
