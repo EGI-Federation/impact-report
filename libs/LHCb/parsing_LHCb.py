@@ -2,6 +2,7 @@
 
 import csv
 import os
+
 import requests
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
@@ -9,8 +10,8 @@ from dateutil.parser import parse
 
 def print_details(url, csv_filename, years):
     """
-       Parsing the scientific publications from the web site and 
-       export the list in a CSV file
+    Parsing the scientific publications from the web site and
+    export the list in a CSV file
     """
 
     item_year = item_journal = item_doi = item_title = ""
