@@ -32,14 +32,14 @@ def print_details(url, csv_filename, years):
 
             # Find whether DOI/doi is specified
             if "DOI" in tmp:
-                item_doi = tmp[tmp.find("DOI") + 4 :].strip()
+                item_doi = tmp[tmp.find("DOI")+4:].strip()
             elif "doi" in tmp:
-                item_doi = tmp[tmp.find("doi") + 4 :].strip()
+                item_doi = tmp[tmp.find("doi")+4:].strip()
 
             # Find the index of the first digit in a string
             m = re.search(r"\d", tmp)
             if m is not None:
-                item_authors = tmp[0 : m.start() - 2]
+                item_authors = tmp[0:m.start()-2]
 
             if item.find("strong") is not None:
                 try:
