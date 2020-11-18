@@ -31,11 +31,7 @@ print_details(url, csv_filename, years)
 * Parse and export the SeaDataNet publications as follows:
   ```sh
   ]$ python3 parsing_SeaDataNet.py
-  ```
-
-- Parsing publications in progress...[OK]
-  ```
-
+     - Parsing publications in progress...[OK]
   ```
 
 * Publications are stored in the `publications.csv` file.
