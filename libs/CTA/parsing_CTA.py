@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-import json
 import csv
+import json
 import os
 
 
 def parsing_publications(filename, csv_filename, years):
     """
-       Parsing the scientific publications from the web site and 
-       export the list in a CSV file
+    Parsing the scientific publications from the web site and
+    export the list in a CSV file
     """
 
     with open(filename) as fp:

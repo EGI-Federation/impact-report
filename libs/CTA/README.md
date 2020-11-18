@@ -42,6 +42,7 @@ parsing_publications(filename, csv_filename, years)
 ```
 
 * Parse the JSON file and export the CTA publications as follows:
+
 ```sh
 ]$ python3 parsing_CTA.py
 

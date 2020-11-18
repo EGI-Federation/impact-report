@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 
-import io, requests, csv, os
-from dateutil.parser import parse
+import csv
+import os
+
+import requests
 from bs4 import BeautifulSoup
+from dateutil.parser import parse
 
 
 def print_details(url, csv_filename, years):
     """
-       Parsing the scientific publications from the web site and 
-       export the list in a CSV file
+    Parsing the scientific publications from the web site and
+    export the list in a CSV file
     """
 
-    item_authors = item_year = item_href = item_journal = item_doi = item_title = ""
+    item_year = item_journal = item_doi = item_title = ""
 
     with open(csv_filename, "w", newline="") as csvfile:
         # Header of the CSV file
@@ -45,10 +48,6 @@ def print_details(url, csv_filename, years):
                                 item_year = li.text.split()[-1]
                                 item_year = parse(item_year).year
 
-                        if li.a is not None:
-                            # Get the reference
-                            item_href = li.a.get("href")
-
                     if item_year in years:
                         # print(item_title)
                         # print(item_year)
@@ -70,7 +69,11 @@ def print_details(url, csv_filename, years):
 
 def main():
     print("- Parsing publications in progress...", end="")
-    url = "https://alice-publications.web.cern.ch/publications?title=&field_draft_pub_date_value%5Bmin%5D=&field_draft_pub_date_value%5Bmax%5D=&items_per_page=100"
+    url = (
+        "https://alice-publications.web.cern.ch/publications"
+        "?title=&field_draft_pub_date_value%5Bmin%5D="
+        "&field_draft_pub_date_value%5Bmax%5D=&items_per_page=100"
+    )
     csv_filename = "publications.csv"
     years = [2016, 2017, 2018, 2019]
     print_details(url, csv_filename, years)

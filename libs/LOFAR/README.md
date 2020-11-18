@@ -18,7 +18,7 @@ With this script we will:
 * Go to the [LOFAR repository](https://lofar-surveys.org/publications.html)
 * Configure the settings (e.g.: `url`, and `years` range)
 
-<pre>
+```sh
 [..]
 url="https://lofar-surveys.org/publications.html"
 csv_filename="publications.csv"
@@ -26,13 +26,12 @@ csv_filename="publications.csv"
 years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
 [..]
-</pre>
+```
 
 * Parse and export the LOFAR publications as follows:
-  <pre>
-]$ python3 parsing_LOFAR.py
-
-- Parsing publications in progress...[OK]
-  </pre>
+  ```sh
+  ]$ python3 parsing_LOFAR.py
+     - Parsing publications in progress...[OK]
+  ```
 
 * Publications are saved in the `publications.csv` file.

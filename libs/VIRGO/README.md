@@ -9,7 +9,7 @@ With this script we will:
 ## Requirements
 
 * Basic knowledge of Linux user environment and Python as programming language
-* Basic knowledge of the `io`, `requests`, `csv`, `os`, `re`, `parse` and `Beautiful Soap` python libraries are requested
+* Basic knowledge of the `requests`, `csv`, `os`, `parse` and `Beautiful Soap` python libraries are requested
 * Python v3.5.2+
 * [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
 
@@ -18,7 +18,7 @@ With this script we will:
 * Go to the [VIRGO repository](https://pnp.ligo.org/ppcomm/Papers.html)
 * Configure the settings (e.g.: `url`, and `years` range)
 
-<pre>
+```sh
 [..]
 url="https://pnp.ligo.org/ppcomm/Papers.html"
 csv_filename="publications.csv"
@@ -26,13 +26,12 @@ csv_filename="publications.csv"
 years = [2016, 2017, 2018, 2019]
 print_details(url, csv_filename, years)
 [..]
-</pre>
+```
 
 * Parse and export the VIRGO publications as follows:
-  <pre>
-]$ python3 parsing_VIRGO.py
-
-- Parsing publications in progress...[OK]
-  </pre>
+  ```sh
+  ]$ python3 parsing_VIRGO.py
+     - Parsing publications in progress...[OK]
+  ```
 
 * Publications are stored in the `publications.csv` file.

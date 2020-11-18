@@ -9,7 +9,7 @@ With this script we will:
 ## Requirements
 
 * Basic knowledge of Linux user environment and Python as programming language
-* Basic knowledge of the `io`, `os`, `csv`, `requests`, `parse` and `Beautiful Soap` python libraries are requested
+* Basic knowledge of the `os`, `csv`, `requests`, `parse` and `Beautiful Soap` python libraries are requested
 * Python v3.5.2+
 * [Beautiful Soap](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (v4.9.2)
 
@@ -17,7 +17,7 @@ With this script we will:
 
 * Configure the settings (e.g.: `url`, and `years` range)
 
-<pre>
+```sh
 [..]
 url="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications"
 csv_filename="publications.csv"
@@ -25,13 +25,12 @@ csv_filename="publications.csv"
 years = [16, 17, 18, 19]
 print_details(url, csv_filename, years)
 [..]
-</pre>
+```
 
 * Parse and export the ATLAS publications as follows:
-  <pre>
-]$ python3 parsing_ATLAS.py
-
-- Parsing publications in progress...[OK]
-  </pre>
-
+  ```sh
+  ]$ python3 parsing_ATLAS.py
+  - Parsing publications in progress...[OK]
+  ```
+  
 Publications will be saved in the `publications.csv` file
