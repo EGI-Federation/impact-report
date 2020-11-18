@@ -31,12 +31,7 @@ print_details(url, csv_filename, years)
 * Parse and export the VIRGO publications as follows:
   ```sh
   ]$ python3 parsing_VIRGO.py
-  ```
-
-- Parsing publications in progress...[OK]
-
-  ```
-
+     - Parsing publications in progress...[OK]
   ```
 
 * Publications are stored in the `publications.csv` file.
