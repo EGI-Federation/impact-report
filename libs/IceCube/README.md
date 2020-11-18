@@ -31,11 +31,7 @@ print_details(url, csv_filename, years)
 * Parse and export the IceCube publications as follows:
   ```sh
   ]$ python3 parsing_IceCube.py
-  ```
-
-- Parsing publications in progress...[OK]
-  ```
-
+     - Parsing publications in progress...[OK]
   ```
 
 * Publications are saved in the `publications.csv` file.
