@@ -30,12 +30,7 @@ print_details(url, csv_filename, years)
 * Parse and export the ATLAS publications as follows:
   ```sh
   ]$ python3 parsing_ATLAS.py
+  - Parsing publications in progress...[OK]
   ```
-
-- Parsing publications in progress...[OK]
-
-  ```
-
-  ```
-
+  
 Publications will be saved in the `publications.csv` file
