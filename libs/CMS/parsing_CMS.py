@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-import requests
 import csv
 import os
-from dateutil.parser import parse
+import requests
 from bs4 import BeautifulSoup
+from dateutil.parser import parse
 
 
 def print_details(url, webroot, csv_filename, years):
