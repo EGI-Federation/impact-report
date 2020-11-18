@@ -31,12 +31,7 @@ print_details(url, csv_filename, years)
 * Parse and export the H.E.S.S. publications as follows:
   ```sh
   ]$ python3 parsing_HESS.py
-  ```
-
-- Parsing publications in progress...[OK]
-
-  ```
-
+     - Parsing publications in progress...[OK]
   ```
 
 * Publications are saved in the `publications.csv` file.
