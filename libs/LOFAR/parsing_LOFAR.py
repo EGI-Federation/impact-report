@@ -25,7 +25,6 @@ def print_details(url, csv_filename, years):
         rn = requests.get(url)
         soup = BeautifulSoup(rn.text, "lxml")
 
-        gdp_table = soup.find("table", {"class": "display"})
         trs = soup.findAll("tr")
         items_list = []
 
