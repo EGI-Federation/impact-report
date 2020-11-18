@@ -62,7 +62,10 @@ def print_details(url, csv_filename, years):
 
 def main():
     print("- Parsing publications in progress...", end="")
-    url = "http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html"
+    url = (
+        "http://lhcbproject.web.cern.ch/lhcbproject"
+        "/Publications/LHCbProjectPublic/Summary_all.html"
+    )
     csv_filename = "publications.csv"
     years = [2016, 2017, 2018, 2019]
     print_details(url, csv_filename, years)

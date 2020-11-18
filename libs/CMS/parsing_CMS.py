@@ -60,7 +60,10 @@ def print_details(url, webroot, csv_filename, years):
 
 def main():
     print("- Parsing publications in progress...", end="")
-    url = "http://cms-results.web.cern.ch/cms-results/public-results/publications/CMS/index.html"
+    url = (
+        "http://cms-results.web.cern.ch/cms-results/"
+        "public-results/publications/CMS/index.html"
+    )
     webroot = "http://cms-results.web.cern.ch/cms-results/public-results/publications/"
     csv_filename = "publications.csv"
     years = [2016, 2017, 2018, 2019]
