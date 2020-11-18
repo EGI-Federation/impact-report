@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import re
-import requests
 import csv
 import os
-from dateutil.parser import parse, ParserError
+import re
+import requests
 from bs4 import BeautifulSoup
+from dateutil.parser import parse, ParserError
 
 
 def print_details(url, csv_filename, years):
