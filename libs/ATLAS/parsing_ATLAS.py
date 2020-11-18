@@ -5,7 +5,6 @@ import os
 
 import requests
 from bs4 import BeautifulSoup
-from dateutil.parser import parse
 
 
 def print_details(url, csv_filename, years):
