@@ -36,7 +36,7 @@ print_details(url, csv_filename, years)
 - Parsing publications in progress...[OK]
   </pre>
 
-### Note:
+### Note
 
 * Publications are saved in the `publications.csv` file.
 * If necessary repeat the procedure moving between pages and concat the different CSV files.
