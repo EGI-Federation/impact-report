@@ -2,14 +2,15 @@
 
 import csv
 import os
+
 import requests
 from bs4 import BeautifulSoup
 
 
 def print_details(url, csv_filename, years):
     """
-       Parsing the scientific publications from the web site and 
-       export the list in a CSV file
+    Parsing the scientific publications from the web site and 
+    export the list in a CSV file
     """
 
     item_authors = item_year = item_journal = item_doi = item_title = ""
@@ -21,7 +22,6 @@ def print_details(url, csv_filename, years):
         writer.writeheader()
 
         index = 0
-        title_list = []
         rn = requests.get(url)
         soup = BeautifulSoup(rn.text, "lxml")
 
