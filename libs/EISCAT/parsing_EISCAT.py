@@ -8,10 +8,8 @@ from bs4 import BeautifulSoup
 
 
 def print_details(url, csv_filename, years):
-    """
-    Parsing the scientific publications from the web site and 
-    export the list in a CSV file
-    """
+    # Parsing the scientific publications from the web site
+    # Exporting the list in a CSV file
 
     item_authors = item_year = item_journal = item_doi = item_title = ""
 
