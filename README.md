@@ -60,7 +60,7 @@ repositories:
 | SKA           | [link](https://explore.openaire.eu/)                                                               |
 | VIRGO         | [link](https://pnp.ligo.org/ppcomm/Papers.html)                                                    |
 | WeNMR         | Direct reporting via interview and OpenAIRE                                                        |
-| XENON (§)     | [link](https://inspirehep.net/)                                                                    |
+| XENON (§)     | [link](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=collaboration%3AXENON)   |
 
 ## Available libs
 
